@@ -1,3 +1,3 @@
-module github.com/FxIvan/backtracking
+module github.com/fxivan/algoritmos-go/backtracking
 
 go 1.20

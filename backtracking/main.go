@@ -18,7 +18,7 @@ func helper(n int, remain int) []int {
 	if remain == 0 {
 		return []int{}
 	}
-	fmt.Print("Remain -->\n", remain, "\n")
+	fmt.Print("Remain -->", remain, "\n")
 	for i := n - 1; i > 0; i-- {
 		fmt.Print("I -->", i, "\n")
 		fmt.Print("remain-i*i ->", remain-i*i, "\n")
