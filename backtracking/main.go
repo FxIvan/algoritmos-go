@@ -65,6 +65,7 @@ func findOptimalRoute(destinations []string) ([]string, int) {
 			currentDistance := calculateDistance(currentPath)
 			if currentDistance < bestDistance {
 				bestDistance = currentDistance
+				fmt.Println("currentPath -->", currentPath)
 				bestPath = append([]string{}, currentPath...)
 			}
 			return
